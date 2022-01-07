@@ -50,7 +50,5 @@ Please provide your own API Key (this is required for the `tidycensus` package, 
 ### Outputs 
 
 After the code has finished, outputs are saved in the /outputs subdirectory of where you cloned the repository on your local machine, including:
-- tracts.shp is a .shp file of the tract level data you queried
 - tracts.csv is a .csv file of the tract level data your queried
-- block_group.shp is a .shp file of the block group level data you queried
 - block_group.csv is a .csv file of the block group level data you queried
