@@ -71,7 +71,7 @@ block_group <- block_group %>% filter(grepl("^42091204600 |^42091204701 |^420912
 
 #exporting
 Layer_opt<-c("RESIZE=yes")
-st_write(tracts,paste0(getwd(), "/", "tracts2.shp"),layer_options = Layer_opt)
+#st_write(tracts,paste0(getwd(), "/", "tracts.shp"),layer_options = Layer_opt)
 write.csv(tracts, paste0(getwd(), "/", "tracts.csv"))
-st_write(block_group,paste0(getwd(), "/", "block_group.shp"),layer_options = Layer_opt)
+#st_write(block_group,paste0(getwd(), "/", "block_group.shp"),layer_options = Layer_opt)
 write.csv(block_group, paste0(getwd(), "/", "block_group.csv"))
